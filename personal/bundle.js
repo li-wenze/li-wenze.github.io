@@ -4053,12 +4053,19 @@
                 this._yaw_target =
                     this._roll_target =
                         this._target = null
-            this.speed = opts.speed || 0.0032
+                this.speed = opts.speed || 0.0032
             this.max_speed = opts.maxSpeed || 0.0112
-            this.jump_max_speed = opts.jumpMaxSpeed || 0.016
-            this.jump_max_timer = opts.jumpTimer || 200
-            this.jump_speed = opts.jumpSpeed || 0.004
-            this.jump_speed_move = opts.jumpSpeedMove || 0.1
+            this.jump_max_speed = opts.jumpMaxSpeed || 0.0128
+            this.jump_max_timer = opts.jumpTimer || 11
+            this.jump_speed = opts.jumpSpeed || 0.0032
+            this.jump_speed_move = opts.jumpSpeedMove || 0.0032
+
+            // this.speed = opts.speed || 0.0032
+            // this.max_speed = opts.maxSpeed || 0.0112
+            // this.jump_max_speed = opts.jumpMaxSpeed || 0.016
+            // this.jump_max_timer = opts.jumpTimer || 200
+            // this.jump_speed = opts.jumpSpeed || 0.004
+            // this.jump_speed_move = opts.jumpSpeedMove || 0.1
             this.jump_timer = this.jump_timer_max
             this.jumping = false
             this.acceleration = opts.accelerationCurve || this.acceleration
