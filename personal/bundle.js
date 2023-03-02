@@ -35,6 +35,12 @@
             "11": "./images/original/11.png",
             "12": "./images/original/12.png",
             "13": "./images/original/13.png",
+            "14": "./images/original/14.png",
+            "15": "./images/original/15.png",
+            "16": "./images/original/16.png",
+            "17": "./images/original/17.png",
+            "18": "./images/original/18.png",
+
             // "blogpost": "http://voxeljs.com/",
             // "crittercreator": "http://voxelbuilder.com",
             // "voxeljscom": "http://voxeljs.com/",
