@@ -189,7 +189,17 @@
                         game.createBlock(position, currentMaterial)
                     } else {
                         position = blockPosErase
-                        if (position) game.setBlock(position, 0)
+                        // console.log('ff', game.getBlock(position))
+                        if (position) {
+                            var bm = game.getBlock(position)
+                            if (bm === 1) {
+                                game.setBlock(position, 0)
+                            } else {
+                                game.setBlock(position, bm)
+                            }
+
+                        }
+
                     }
                 })
 
